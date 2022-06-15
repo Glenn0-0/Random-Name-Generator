@@ -1,0 +1,343 @@
+.title {
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    font-family: 'Bai Jamjuree', 'Varela', 'Varela Round', 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #212121;
+    text-shadow: -15px 15px 0px rgba(0, 0, 0, 0.05);
+    left: 14.44%;
+    top: 6%;
+}
+
+.button {
+    cursor: pointer;
+    position: absolute;
+    width: 26%;
+    height: 3.8%;
+    left: 37%;
+    top: 71.6%;
+    background: linear-gradient(262.8deg, rgba(255, 255, 255, 0.2) 15.86%, rgba(255, 255, 255, 0.1) 87.57%);
+    border-radius: 50px;
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-shadow: -3px -3px 0px rgba(73, 81, 154, 0.5), 3px 3px 0px rgba(186, 74, 74, 0.5);
+    padding: 33px, 65px, 37px, 65px;
+    border-color: rgba(255,255,255,0);
+}
+
+.description {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    left: 60%;
+    top: 24%;
+    transform: rotate(-12.12deg);
+    color: rgba(255, 255, 255, 0.75); 
+}
+
+.dice {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    right: 3%;
+    top: 6.1%;
+    left: 70%;
+}
+
+.cat {
+    position: absolute;
+    transform: matrix(-0.36, 0.93, 0.93, 0.36, 0, 0);
+    width: 874.36px;
+    height: 661.03px;
+    right: 53%;
+    top: 25%;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.text1 {
+    position: absolute;
+    width: 570px;
+    height: 170px;
+    left: 49%;
+    top: 41%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.text2 {
+    position: absolute;
+    width: 620px;
+    height: 82px;
+    /* left: 33%; */
+    left: calc(50% - 620px/2);
+    /* right: 25%; */
+    top: 54.25%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #0F0F0F;
+}
+
+.name {
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    top: 62%;
+    left: 18.75%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.surname {
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    top: 62%;
+    left: 53.47%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.arrow-desc {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 25.9%;
+    top: 79.63%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #424242;
+}
+
+.arrow {
+    box-sizing: border-box;
+    position: absolute;
+    width: 105px;
+    height: 135px;
+    left: 49.02%;
+    top: 76.19%;
+}
+
+.support {
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 15.82%;
+    top: 88%;
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.share {
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 52%;
+    top: 88%; 
+    font-family: 'Gelasio';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.credits {
+    position: absolute;
+    width: 235px;
+    height: 95px;
+    left: 20.7%;
+    top: 90.66%;
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.github, .instagram, .share-icon, .facebook, .twitter {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.github {
+    left: 56.6%;
+    top: 90.45%;
+}
+
+.twitter {
+    left: 63.54%;
+    top: 90.45%;
+}
+
+.share-icon {
+    left: 70.48%;
+    top: 90.45%;
+}
+
+.facebook {
+    left: 56.6%;
+    top: 93.25%;
+}
+
+.instagram {
+    left: 63.54%;
+    top: 93.25%;
+}
+
+.copyright {
+    position: absolute;
+    width: 354px;
+    height: 20px;
+    left: 16.66%;
+    top: 98.03%;
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.shape {
+    width: 100%;
+    height: auto;
+}
+
+/* body {
+    min-width: 1300px;
+    min-height: 700px;
+    position: relative;
+    background: linear-gradient(270deg, #950000, #D64000, #83002F, #002459);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-animation: bgChange 30s ease infinite;
+    -moz-animation: bgChange 30s ease infinite;
+    animation: bgChange 30s ease infinite;
+} */
+
+body {
+    background: linear-gradient(270deg, #950000, #64114D, #002459, #671497, #aa1048, #bb1b1b, #d83316);
+    background-size: 800% 800%;
+    background-position: center;
+    min-width: 1300px;
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-animation: bgChange 30s ease infinite;
+    -moz-animation: bgChange 30s ease infinite;
+    animation: bgChange 30s ease infinite;
+}
+
+@-webkit-keyframes bgChange {
+    0%{
+        background-position:0% 50%;
+        transform: rotate(60deg);
+    }
+    50%{
+        background-position:100% 50%;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-position:0% 50%;
+        transform: rotate(300deg);
+    }
+}
+@-moz-keyframes bgChange {
+    0%{
+        background-position:0% 50%;
+        transform: rotate(100deg);
+    }
+    50%{
+        background-position:100% 50%;
+        transform: rotate(220deg);
+    }
+    100%{
+        background-position:0% 50%;
+        transform: rotate(320deg);
+    }
+}
+@keyframes bgChange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* @-webkit-keyframes bgChange {
+    0% {
+        background: linear-gradient(183.8deg, #83002F 32.71%, #F60000 136.7%);
+    }
+    20% {
+        background: linear-gradient(262.57deg, #64114D 13.14%, #F60059 124.77%);
+    }
+    40% {
+        background: linear-gradient(297.68deg, #002459 7.35%, #AB00D6 102.37%);
+    }
+    60% {
+        background: linear-gradient(1.41deg, #00D085 -12.95%, #00109D 123.44%);
+    }
+    80% {
+        background: linear-gradient(55.26deg, #EFC900 12.66%, #00FFC2 125.91%);
+    }
+    100% {
+        background: linear-gradient(87.47deg, #BD3900 20.56%, #FFA800 111.39%);
+    }
+} */
